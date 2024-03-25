@@ -22,6 +22,7 @@ export const lightTheme: ThemeProps = {
     primaryGradient: "linear-gradient(180deg, rgba(215,75,118,1) 0%, rgba(246,120,146,1) 60%)",
     primaryGradientHover: "linear-gradient(0deg, rgba(215,75,118,1) 0%, rgba(246,120,146,1) 60%)",
     
-    secondary: "#673F69",
-    secondaryText: "white"
+    secondary: "#f1ffea",
+    secondaryHover: "#E1F0DA",
+    secondaryText: "black"
 }

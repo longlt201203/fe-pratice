@@ -14,8 +14,13 @@ const NavLinkTagCss = css`
     text-decoration: none;
     padding: 15px 0;
     width: 100%;
-    color: inherit;
+    color: ${props => props.theme.primaryText};
     display: inline-block;
+    transistion: .3s linear;
+
+    &:hover {
+        background-color: ${props => props.theme.primaryHover}
+    }
 `
 
 const NavLinkATag = styled.a`

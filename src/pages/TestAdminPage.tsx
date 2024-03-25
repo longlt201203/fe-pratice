@@ -7,6 +7,7 @@ function TestAdminPage() {
             <p>This is content</p>
             <Button variant="primary">Primary Button</Button>
             <Button variant="secondary">Secondary Button</Button>
+            <Button variant="secondary" disabled>Disabled Button</Button>
         </AdminMainLayout>
     );    
 }
